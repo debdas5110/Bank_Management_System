@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/214015be-df05-49b9-ae02-1faee870f043
+**URL**: https://bank-management-system-xi.vercel.app/
 
 This is a full-featured Bank Management System project developed by me, Debdas Upadhyay, using modern frontend technologies. The project is currently hosted on Vercel for fast and reliable deployment.
 
