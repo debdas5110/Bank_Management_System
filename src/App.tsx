@@ -11,7 +11,8 @@ import AuthPageWrapper from "./pages/AuthPageWrapper";
 import DashboardPage from "./pages/DashboardPage";
 import AdminPage from "./pages/AdminPage";
 import NotFound from "./pages/NotFound";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from '@vercel/analytics/react';
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -30,6 +31,7 @@ const App = () => (
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
+          <Analytics />
         </AuthProvider>
       </TooltipProvider>
     </ThemeProvider>
