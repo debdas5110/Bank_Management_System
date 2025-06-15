@@ -1,40 +1,41 @@
-# Welcome to your Lovable project
+# 💼 Bank Management System – Developed by Debdas Upadhyay
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/214015be-df05-49b9-ae02-1faee870f043
 
-## How can I edit this code?
+This is a full-featured Bank Management System project developed by me, Debdas Upadhyay, using modern frontend technologies. The project is currently hosted on Vercel for fast and reliable deployment.
 
-There are several ways of editing your application.
+## 🛠️ How I Edit and Manage the Code
 
-**Use Lovable**
+I manage the codebase using multiple methods depending on the workflow:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/214015be-df05-49b9-ae02-1faee870f043) and start prompting.
+**Use VsCode**
 
-Changes made via Lovable will be committed automatically to this repo.
+I directly edited the project using the Vscode .Then Commit and push to GitHub through git
 
-**Use your preferred IDE**
+**🧑‍💻 Using My Local IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+For advanced development, I cloned the repository locally and worked in VS Code. Here's how I set it up:
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository using Git
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate into the project folder
+cd bank-management-system
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install all required dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
+This setup gives me access to hot reload and full control over the development experience.
 
 **Edit a file directly in GitHub**
 
@@ -42,7 +43,8 @@ npm run dev
 - Click the "Edit" button (pencil icon) at the top right of the file view.
 - Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+**💻 Using GitHub Codespaces**
+I also experimented with GitHub Codespaces for browser-based editing. It provides a full IDE experience directly from GitHub:
 
 - Navigate to the main page of your repository.
 - Click on the "Code" button (green button) near the top right.
@@ -52,22 +54,21 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with:
+The project is built with the following modern stack:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+⚡ Vite – For blazing-fast development
+
+🛡 TypeScript – For type safety and scalability
+
+⚛ React – Component-based UI library
+
+🎨 Tailwind CSS – Utility-first responsive styling
+
+🧩 shadcn-ui – Accessible and elegant UI components
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/214015be-df05-49b9-ae02-1faee870f043) and click on Share -> Publish.
+I deployed the project on Vercel, which provides instant preview URLs and global CDN hosting for optimized performance. I simply pushed my changes to GitHub, and Vercel automatically handled the deployment.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
