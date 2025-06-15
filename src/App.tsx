@@ -11,7 +11,7 @@ import AuthPageWrapper from "./pages/AuthPageWrapper";
 import DashboardPage from "./pages/DashboardPage";
 import AdminPage from "./pages/AdminPage";
 import NotFound from "./pages/NotFound";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 const queryClient = new QueryClient();
 
 const App = () => (
